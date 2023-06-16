@@ -1,0 +1,99 @@
+
+body{
+  background: linear-gradient(#eeecf1, #e7e0f3);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: linear-gradient(#e9e5f0, #bd9eee);
+  }
+  
+  .form-element {
+    margin: 5px;
+    min-width: 200px;
+    display: flex;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(223, 222, 228);
+  }
+  
+
+  .form-label {
+    min-width: 150px;
+  }
+  
+  .id-card-container {
+    display: none;
+  }
+  
+  .card-container {
+    width: 50vw;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    background: white;
+    font-family: Abel, Arial, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-wrapper {
+    width: 80vw;
+    height: 250px;
+    background-color: #fff;
+    background: linear-gradient(#e9e5f0, #bd9eee);
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem;
+    display: flex;
+  }
+  
+  .user-card {
+    width: 30vw;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(#b9adce, #b896ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .general-information {
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .user-photo {
+    font-size: 7em;
+  }
+  
+  .card-element {
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .card-name {
+    font-size: 1.5rem;
+  }
+  
+  .college-name {
+    font-size: 1.2rem;
+  }
+  

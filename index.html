@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>
+            ID CARD GENERATOR
+        </title>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+       
+    </head>
+    <body>
+        
+        <header class="text-center">
+                <h1>ID CARD GENERATOR</h1>
+        </header>
+        <div class="container">
+            <div class="section-container">
+                <div class="text-center">
+                    <h2>Enter Student Details</h2>
+                </div>
+                <form onsubmit="return false">
+                    <div class="form-element">
+                        <label class="form-label">
+                            Enter Name:
+                        </label>
+                        <input type="text" id="name"/>
+                    </div>
+                    <div class="form-element">
+                        <label class="form-label">
+                            Enter College Name:
+                        </label>
+                        <input type="text" id="collegeName" />
+                    </div>
+                    <div class="form-element">
+                        <label class="form-label">
+                            Enter Location:
+                        </label>
+                        <input type="text" id="location" />
+                    </div>
+                   <br>
+                <center><button style= "width: 40%; height: 15%; background-color: inear-gradient(#e4e4f8,#b9bbf5);" onclick="cardGenerate()">Generate Card</button></center>
+                </form>
+            </div> 
+      <br>
+   
+            <div class="section-container">
+                <div class="id-card-container" id="collegeCard">
+                    <div class="text-center">
+                        <br>
+                       <h2>Generated ID Card</h2> 
+                    </div>
+                    <div class="card-container">
+                        <div class="card-wrapper">
+                            <div class="user-card">
+                                <span class="user-photo">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                            </div>
+                            <div class="general-information">
+                            <div class="card-element card-name">
+                                <span>Name:</span>
+                                <span id="cardName"></span>
+                            </div>
+                            <div class="card-element college-name">
+                                <span>College Name:</span>
+                                <span id="cardCollegeName"></span>
+                            </div>
+                            <div class="card-element college-name">
+                                <span>Location:</span>
+                                <span id="cardLocation"></span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
